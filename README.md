@@ -1,11 +1,11 @@
 # goFAQ
-The go programming language introduction in the form of questions and answers.
+The Go programming language introduction in the form of questions and answers.
 
 ## Why you have created this Go FAQ?
 
-This document is created using my own Go notes. The official Go website (https://golang.org/) has very good documentation. 
+This document is created using my own Go notes. The official Go website (https://golang.org/) has very good documentation, including [FAQ] (https://golang.org/doc/faq).  
 
-I'm trying to keep my notes simple and concise. I belive these notes will help beginners to get familiar with Go quickly. Therefore, sharing here. Contributions and suggestions are most welcomed!
+I'm trying to keep my notes simple and concise. I believe these notes will help beginners to get familiar with Go quickly. Therefore, sharing here. Contributions and suggestions are most welcomed!
 
 ## What is Go?
 
@@ -29,27 +29,29 @@ You can also download and install the required tools on you local machine from h
 
 
 ## Which are the new concepts in Go in comparison with other langauges like C, C++, python, JavaScript, etc.?
-
+OR
 ## Which are the similar concepts in Go in comparison with other langauges like C, C++, python, JavaScript, etc.?
 
-Go in comparison of other programming languages.
+Go in comparison of other programming languages. (work in progress, don't rely on this yet)
 
-Feature | Go | C++ | Java |
----     |--- |---  |---   |
-Statically typed | * | * | * |
-Garbage collection | * | - | * |
-Object Oriented Programming | .? | *
-Closures |
-Constants |
-Aliases |
-Friend functions |
-Virtual functions | 
-Inheritance |
-Function overloading |
-Operator overloading |
-Fast compilation |
-Fast runtime |
-Concurrency support |
+Feature                     | Go                          | C++                         | Java             |
+:---                        |:---:                        |:---:                        |:---:             |
+Statically typed            |:white_check_mark:           |:white_check_mark:           |:white_check_mark:|
+Garbage collection          |:white_check_mark:           |                             |:white_check_mark:|
+In-built concurrency support|:white_check_mark:           |:negative_squared_cross_mark:|                  |
+Object Oriented Programming |:white_check_mark:           |:white_check_mark:           |:white_check_mark:|
+Closures                    |:white_check_mark:           |:negative_squared_cross_mark:|                  |
+Interface                   |:white_check_mark:           |:white_check_mark            |:white_check_mark:|
+Constants                   |                             |                             |                  |
+Aliases                     |                             |                             |                  |
+Generics                    |:negative_squared_cross_mark:|:white_check_mark:           |:white_check_mark:|
+Explicit ```implements```   |:negative_squared_cross_mark:|:white_check_mark:           |:white_check_mark:| 
+Friend functions            |:negative_squared_cross_mark:|:white_check_mark:           |                  |
+Virtual functions           |:negative_squared_cross_mark:|:white_check_mark:           |                  |
+Type Inheritance            |:negative_squared_cross_mark:|:white_check_mark:           |:white_check_mark:| 
+Function overloading        |:negative_squared_cross_mark:|:white_check_mark:           |:white_check_mark:|
+Operator overloading        |:negative_squared_cross_mark:|:white_check_mark:           |                  |
+Fast compilation            |:white_check_mark:           |                             |                  |
 
 ## What is concurrency? Is it same as parallelism? How to achieve concurrency in Go programs? 
 
