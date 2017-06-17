@@ -1,5 +1,5 @@
 # goFAQ
-The go programming language frequently asked questions.
+The go programming language introduction in the form of questions and answers.
 
 ## Why you have created this Go FAQ?
 
@@ -33,6 +33,23 @@ You can also download and install the required tools on you local machine from h
 ## Which are the similar concepts in Go in comparison with other langauges like C, C++, python, JavaScript, etc.?
 
 Go in comparison of other programming languages.
+
+Feature | Go | C++ | Java |
+---     |--- |---  |---   |
+Statically typed | * | * | * |
+Garbage collection | * | - | * |
+Object Oriented Programming | .? | *
+Closures |
+Constants |
+Aliases |
+Friend functions |
+Virtual functions | 
+Inheritance |
+Function overloading |
+Operator overloading |
+Fast compilation |
+Fast runtime |
+Concurrency support |
 
 ## What is concurrency? Is it same as parallelism? How to achieve concurrency in Go programs? 
 
