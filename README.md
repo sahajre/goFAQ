@@ -29,7 +29,7 @@ Go was conceived in September 2007 by Robert Griesemer, Rob Pike and Ken Thompso
 
 ## How to try Go programming?
 
-As a starter, use the [Go playground](https://play.golang.org/). Recently, there is another similar [un-official service](https://goplay.space/)
+As a starter, use the [Go playground](https://play.golang.org/). Recently, there is another similar [un-official service](https://goplay.space/).
 
 You can also download and install the required tools on you local machine from [Go website](https://golang.org/).
 
@@ -44,7 +44,7 @@ Garbage collection          |:white_check_mark:           |                     
 In-built concurrency support|:white_check_mark:           |                             |                  |
 Object Oriented Programming |:white_check_mark:           |:white_check_mark:           |:white_check_mark:|
 Closures                    |:white_check_mark:           |                             |                  |
-Interface                   |:white_check_mark:           |:white_check_mark            |:white_check_mark:|
+Interface                   |:white_check_mark:           |:white_check_mark:           |:white_check_mark:|
 Constants                   |                             |                             |                  |
 Aliases                     |                             |                             |                  |
 Generics                    |                             |:white_check_mark:           |:white_check_mark:|
