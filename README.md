@@ -3,7 +3,7 @@ The Go programming language introduction in the form of questions and answers.
 
 ## Why you have created this Go FAQ?
 
-This document is created using my own Go notes. The official Go website (https://golang.org/) has very good documentation, including [FAQ] (https://golang.org/doc/faq).  
+This document is created using my own Go notes. The official [Go website](https://golang.org/) has very good documentation, including [FAQ](https://golang.org/doc/faq).  
 
 I'm trying to keep my notes simple and concise. I believe these notes will help beginners to get familiar with Go quickly. Therefore, sharing here. Contributions and suggestions are most welcomed!
 
@@ -23,10 +23,9 @@ Go was conceived in September 2007 by Robert Griesemer, Rob Pike and Ken Thompso
 
 ## How to try Go programming?
 
-As a starter, use the Go playground: https://play.golang.org/. Recently, there is another similar un-official service: https://goplay.space/
+As a starter, use the [Go playground](https://play.golang.org/). Recently, there is another similar [un-official service](https://goplay.space/)
 
-You can also download and install the required tools on you local machine from https://golang.org.
-
+You can also download and install the required tools on you local machine from [Go website](https://golang.org/).
 
 ## Which are the new concepts in Go in comparison with other langauges like C, C++, python, JavaScript, etc.?
 OR
