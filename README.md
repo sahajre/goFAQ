@@ -1,11 +1,11 @@
 # goFAQ
 The Go programming language introduction in the form of questions and answers.
 
-## Why you have created this Go FAQ?
+## What is the purpose of GoFAQ?
 
 This document is created using my own Go notes. The official [Go website](https://golang.org/) has very good documentation, including [FAQ](https://golang.org/doc/faq).  
 
-I'm trying to keep my notes simple and concise. I believe these notes will help beginners to get familiar with Go quickly. Therefore, sharing here. Contributions and suggestions are most welcomed!
+I'm trying to keep my notes simple and concise. I believe these notes will help beginners to get familiar with Go quickly. Contributions and suggestions are most welcomed!
 
 Note: I've just started learning Go (June '17). This document will grow as I learn more.
 
@@ -25,7 +25,7 @@ Go was conceived in September 2007 by Robert Griesemer, Rob Pike and Ken Thompso
 * Fast compilation
 * Easy to use dependency management
 * Utilize the emergence of multicore processors by providing buit-in easy to use concurrency features
-* Simple type system. (Go doesn't support type heirarchy)
+* Simple type system. (It make it simple by not supporting type heirarchy)
 
 ## How to try Go programming?
 
@@ -44,7 +44,7 @@ Garbage collection          |:white_check_mark:           |                     
 In-built concurrency support|:white_check_mark:           |                             |                  |
 Object Oriented Programming |:white_check_mark:           |:white_check_mark:           |:white_check_mark:|
 Closures                    |:white_check_mark:           |                             |                  |
-Interface                   |:white_check_mark:           |:white_check_mark:           |:white_check_mark:|
+Interface                   |:white_check_mark:           |           |:white_check_mark:|
 Constants                   |                             |                             |                  |
 Aliases                     |                             |                             |                  |
 Generics                    |                             |:white_check_mark:           |:white_check_mark:|
