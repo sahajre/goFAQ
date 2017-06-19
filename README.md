@@ -25,7 +25,7 @@ Go was conceived in September 2007 by Robert Griesemer, Rob Pike and Ken Thompso
 * Fast compilation
 * Easy to use dependency management
 * Utilize the emergence of multicore processors by providing buit-in easy to use concurrency features
-* Simple type system. (It make it simple by not supporting type heirarchy)
+* Simple type system. (making it simple by not supporting type heirarchy)
 
 ## How to try Go programming?
 
@@ -35,28 +35,45 @@ You can also download and install the required tools on you local machine from [
 
 ## How is Go compared to C++ and Java?
 
-Go in comparison of other programming languages. (work in progress, don't rely on this yet)
+This comparison is only meant for showing how concise and small Go is compared to other languages. Please do not translate your C++ or Java programming thinking while writing Go programs. 
 
-Feature                     | Go                          | C++                         | Java             |
-:---                        |:---:                        |:---:                        |:---:             |
-Statically typed            |:white_check_mark:           |:white_check_mark:           |:white_check_mark:|
-Garbage collection          |:white_check_mark:           |                             |:white_check_mark:|
-In-built concurrency support|:white_check_mark:           |                             |                  |
-Object Oriented Programming |:white_check_mark:           |:white_check_mark:           |:white_check_mark:|
-Closures                    |:white_check_mark:           |                             |                  |
-Interface                   |:white_check_mark:           |           |:white_check_mark:|
-Constants                   |                             |                             |                  |
-Aliases                     |                             |                             |                  |
-Generics                    |                             |:white_check_mark:           |:white_check_mark:|
-Explicit ```implements```   |                             |:white_check_mark:           |:white_check_mark:| 
-Friend functions            |                             |:white_check_mark:           |                  |
-Virtual functions           |                             |:white_check_mark:           |                  |
-Type Inheritance            |                             |:white_check_mark:           |:white_check_mark:| 
-Function overloading        |                             |:white_check_mark:           |:white_check_mark:|
-Operator overloading        |                             |:white_check_mark:           |                  |
-Fast compilation            |:white_check_mark:           |                             |                  |
+Feature                      | Go               | C++              | Java             |
+:---                         |:---:             |:---:             |:---:             |
+Statically typed             |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+Object Oriented Programming  |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+Variadic function            |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+Keyword ```struct```         |:white_check_mark:|:white_check_mark:|                  |
+\#lambda; functions/Closures |:white_check_mark:|:white_check_mark:|                  |
+In-built concurrency support |:white_check_mark:|                  |                  |
+Implicit ```implements```    |:white_check_mark:|                  |                  |
+Designed for fast compilation|:white_check_mark:|                  |                  |
+Anonymous functions          |:white_check_mark:|                  |                  |
+datatype ```rune```          |:white_check_mark:|                  |                  |
+Garbage collection           |:white_check_mark:|                  |:white_check_mark:|
+Interface                    |:white_check_mark:|                  |:white_check_mark:|
+Keyword ```while```          |                  |:white_check_mark:|:white_check_mark:|
+Keyword ```do { } while```   |                  |:white_check_mark:|:white_check_mark:|
+Keyword ```class```          |                  |:white_check_mark:|:white_check_mark:|
+Generics                     |                  |:white_check_mark:|:white_check_mark:|
+Type Inheritance             |                  |:white_check_mark:|:white_check_mark:|
+Exceptions handling          |                  |:white_check_mark:|:white_check_mark:|
+Function overloading         |                  |:white_check_mark:|:white_check_mark:|
+Explict ```implements```     |                  |:white_check_mark:|:white_check_mark:|
+Operator overloading         |                  |:white_check_mark:|                  |
+keywords ```final, abstract```|                 |                  |:white_check_mark:|
+keywords ```virtual, friend```|                 |:white_check_mark:|                  |
+keyword ```this```           |                  |:white_check_mark:|:white_check_mark:| 
 
 ## What is concurrency? Is it same as parallelism? How to achieve concurrency in Go programs? 
+
+Concurrency is the composition of independently executing computations. It is not parallelism. On a single processor your program can be concurrent, but it cannot be parallel.  
+
+Go has in-built features _channel_ and _goroutines_ to write concurrently running function executions. _goroutines_ are analogus to background invocation of shell command using ```&```. It is independently executing function launched by using a ````go``` keyword.
+
+A _channel_ provides a connection between two goroutines allowing them to communicate. _Channels_ are first class values in Go, which means you can pass them to function, return them from function, or you can assign them to a variable. _Channels_ are defined using ```chan``` keyword and initialize using ```make``` function. ```<--``` is used to send (e.g. _channel_variable_name_ <- _data_) and receive (e.g. _data_ := <- _channel_variable_name_) values from the _channel_. The sending and receiving on channel are blocking operation. 
+
+Go concurrency slogan,
+> Don't communicate by sharing memory, share memory by communicating.
 
 ## How to write reusable libraries in Go?
 
