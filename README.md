@@ -35,7 +35,7 @@ You can also download and install the required tools on you local machine from [
 
 ## How is Go compared to C++ and Java?
 
-This comparison is only meant for showing how concise and small Go is compared to other languages. Please do not translate your C++ or Java programming thinking while writing Go programs. 
+This comparison is only meant for showing how concise (but yet, powerful) Go compared to other languages. Please do not translate your C++ or Java programming thinking while writing Go programs. 
 
 Feature                      | Go               | C++              | Java             |
 :---                         |:---:             |:---:             |:---:             |
@@ -43,7 +43,7 @@ Statically typed             |:white_check_mark:|:white_check_mark:|:white_check
 Object Oriented Programming  |:white_check_mark:|:white_check_mark:|:white_check_mark:|
 Variadic function            |:white_check_mark:|:white_check_mark:|:white_check_mark:|
 Keyword ```struct```         |:white_check_mark:|:white_check_mark:|                  |
-\#lambda; functions/Closures |:white_check_mark:|:white_check_mark:|                  |
+<span>&lambda;</span> functions/Closures |:white_check_mark:|:white_check_mark:|                  |
 In-built concurrency support |:white_check_mark:|                  |                  |
 Implicit ```implements```    |:white_check_mark:|                  |                  |
 Designed for fast compilation|:white_check_mark:|                  |                  |
@@ -68,9 +68,9 @@ keyword ```this```           |                  |:white_check_mark:|:white_check
 
 Concurrency is the composition of independently executing computations. It is not parallelism. On a single processor your program can be concurrent, but it cannot be parallel.  
 
-Go has in-built features _channel_ and _goroutines_ to write concurrently running function executions. _goroutines_ are analogus to background invocation of shell command using ```&```. It is independently executing function launched by using a ````go``` keyword.
+Go has in-built features _channel_ and _goroutines_ to write concurrently running function executions. _goroutines_ are analogus to background invocation of shell command using ```&```. It is independently executing function launched by using a ```go``` keyword.
 
-A _channel_ provides a connection between two goroutines allowing them to communicate. _Channels_ are first class values in Go, which means you can pass them to function, return them from function, or you can assign them to a variable. _Channels_ are defined using ```chan``` keyword and initialize using ```make``` function. ```<--``` is used to send (e.g. _channel_variable_name_ <- _data_) and receive (e.g. _data_ := <- _channel_variable_name_) values from the _channel_. The sending and receiving on channel are blocking operation. 
+A _channel_ provides a connection between two goroutines allowing them to communicate. _Channels_ are first class values in Go, which means you can pass them to function, return them from function, or you can assign them to a variable. _Channels_ are defined using ```chan``` keyword and initialize using ```make``` function. ```<--``` is used to send (e.g. ```channel_variable_name <- data```) and receive (e.g. ```data := <- channel_variable_name```) values from the _channel_. The sending and receiving on channel are blocking operation. 
 
 Go concurrency slogan,
 > Don't communicate by sharing memory, share memory by communicating.
