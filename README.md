@@ -19,13 +19,14 @@ By the way, one of the shortest complete sentences in the English language is 'G
 
 ## Who created the Go Programming language and when?
 
-Go was conceived in September 2007 by Robert Griesemer, Rob Pike and Ken Thompson at Google. It was publicly announced in November 2009. Go version 1 was released on 28th March 2012.
+Go was conceived in September 2007 by Robert Griesemer, Rob Pike and Ken Thompson at Google. It was publicly announced and open sourced in November 2009. Go version 1 was released on 28th March 2012.
 
 ## What were the main motivations/goals to create another programming language?
 * Fast compilation
 * Easy to use dependency management
 * Utilize the emergence of multicore processors by providing buit-in easy to use concurrency features
 * Simple type system. (making it simple by not supporting type heirarchy)
+* Developer productivity
 
 ## How to try Go programming?
 
@@ -35,7 +36,7 @@ You can also download and install the required tools on you local machine from [
 
 ## How is Go compared to C++ and Java?
 
-This comparison is only meant for showing how concise (but yet, powerful) Go compared to other languages. Please do not translate your C++ or Java programming thinking while writing Go programs. 
+This comparison is only meant for showing how concise Go compared to other languages. Please do not translate your C++ or Java programming thinking while writing Go programs. 
 
 Feature                      | Go               | C++              | Java             |
 :---                         |:---:             |:---:             |:---:             |
@@ -109,5 +110,9 @@ Go concurrency slogan,
 
 ## What are the other references you would recommend?
 
+Higly recommended:
+
+
+Recommended:
 
 
