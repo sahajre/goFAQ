@@ -19,7 +19,7 @@ By the way, one of the shortest complete sentences in the English language is 'G
 
 ## Who created the Go Programming language and when?
 
-Go was conceived in September 2007 by Robert Griesemer, Rob Pike and Ken Thompson at Google. It was publicly announced and open sourced in November 2009. Go version 1 was released on 28th March 2012.
+Go design was started in September 2007 by Robert Griesemer, Rob Pike and Ken Thompson at Google. It was publicly announced and also open sourced in November 2009. Go version 1 was released on 28th March 2012.
 
 ## What were the main motivations/goals to create another programming language?
 * Fast compilation
@@ -30,7 +30,7 @@ Go was conceived in September 2007 by Robert Griesemer, Rob Pike and Ken Thompso
 
 ## How to try Go programming?
 
-As a starter, use the [Go playground](https://play.golang.org/). Recently, there is another similar [un-official service](https://goplay.space/).
+As a starter, use the [Go playground](https://play.golang.org/). There is another similar [un-official service](https://goplay.space/).
 
 You can also download and install the required tools on you local machine from [Go website](https://golang.org/).
 
@@ -41,8 +41,10 @@ This comparison is only meant for showing how concise Go compared to other langu
 Feature                      | Go               | C++              | Java             |
 :---                         |:---:             |:---:             |:---:             |
 Statically typed             |:white_check_mark:|:white_check_mark:|:white_check_mark:|
-Object Oriented Programming  |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+Object oriented programming  |:white_check_mark:|:white_check_mark:|:white_check_mark:|
 Variadic function            |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+Defining constants           |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+Statically compiled          |:white_check_mark:|:white_check_mark:|                  |
 Keyword ```struct```         |:white_check_mark:|:white_check_mark:|                  |
 <span>&lambda;</span> functions/Closures |:white_check_mark:|:white_check_mark:|                  |
 In-built concurrency support |:white_check_mark:|                  |                  |
@@ -52,18 +54,25 @@ Anonymous functions          |:white_check_mark:|                  |            
 datatype ```rune```          |:white_check_mark:|                  |                  |
 Garbage collection           |:white_check_mark:|                  |:white_check_mark:|
 Interface                    |:white_check_mark:|                  |:white_check_mark:|
+Function can return multiple values|:white_check_mark:|                  |                  |
+Pointers                     |:white_check_mark:|:white_check_mark:|                  |
 Keyword ```while```          |                  |:white_check_mark:|:white_check_mark:|
 Keyword ```do { } while```   |                  |:white_check_mark:|:white_check_mark:|
 Keyword ```class```          |                  |:white_check_mark:|:white_check_mark:|
 Generics                     |                  |:white_check_mark:|:white_check_mark:|
-Type Inheritance             |                  |:white_check_mark:|:white_check_mark:|
-Exceptions handling          |                  |:white_check_mark:|:white_check_mark:|
+Type inheritance             |                  |:white_check_mark:|:white_check_mark:|
+Keyword ```try { } catch() { }```|                  |:white_check_mark:|:white_check_mark:|
 Function overloading         |                  |:white_check_mark:|:white_check_mark:|
 Explict ```implements```     |                  |:white_check_mark:|:white_check_mark:|
 Operator overloading         |                  |:white_check_mark:|                  |
+Arrow (```->```) dereferencing|                 |:white_check_mark:|                  |
 keywords ```final, abstract```|                 |                  |:white_check_mark:|
 keywords ```virtual, friend```|                 |:white_check_mark:|                  |
 keyword ```this```           |                  |:white_check_mark:|:white_check_mark:| 
+keyword ```static```         |                  |:white_check_mark:|:white_check_mark:| 
+Default function arguments   |                  |:white_check_mark:|                  |
+Pointer arithmetic           |                  |:white_check_mark:|                  |  
+
 
 ## What is concurrency? Is it same as parallelism? How to achieve concurrency in Go programs? 
 
@@ -78,7 +87,16 @@ Go concurrency slogan,
 
 ## How to write reusable libraries in Go?
 
+The import path is just a string, it can be a file or a URL.
+Two packages can have the same name. i.e. the package name might not be unique.
+
+Simple export syntax. The uppercase initial name for variables, types, functions, methods and constants denotes that it is visible to clients of package. So, you can figure out visibility of these without looking at the declaration (there are no special magic words like ```public```, ```private```, ```protected``` there). Isn't it simple and clear?
+
+## What are the different types supported in Go?
+
 ## How to define a type in Go?
+
+## How the scope of variable works in Go?
 
 ## How to create a constant value in Go?
 
