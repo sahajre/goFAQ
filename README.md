@@ -13,9 +13,9 @@ Note: I've just started learning Go (June '17). This document will grow as I lea
 
 Go is an open source programming language (which means source code for its compiler, libraries and tools is freely available to anyone. Go here (pun intended): https://github.com/golang).  
 
-Go is a compiled (intended to be fast compiled), statically typed language (similar to C, C++, Java). It has garbage collection (automatic memory management). It has built-in support for writing concurrent programs. 
+Go is a compiled (desinged for fast compilation), statically typed language (similar to C, C++, Java). It has garbage collection (automatic memory management). It has built-in support for writing concurrent programs. 
 
-By the way, one of the shortest complete sentences in the English language is 'Go.'.
+Other Gyan: One of the shortest complete sentences in the English language is 'Go.'.
 
 ## Who created the Go Programming language and when?
 
@@ -25,7 +25,7 @@ Go design was started in September 2007 by Robert Griesemer, Rob Pike and Ken Th
 * Fast compilation
 * Easy to use dependency management
 * Utilize the emergence of multicore processors by providing buit-in easy to use concurrency features
-* Simple type system. (making it simple by not supporting type heirarchy)
+* Simple type system. (trying to make it simple by not supporting type heirarchy)
 * Developer productivity
 
 ## How to try Go programming?
@@ -78,7 +78,7 @@ Pointer arithmetic           |                  |:white_check_mark:|            
 
 ## How to write reusable libraries in Go?
 
-## What are the different types supported in Go?
+## What are the different data types supported in Go?
 
 ## How to define a type in Go?
 
@@ -86,9 +86,7 @@ Pointer arithmetic           |                  |:white_check_mark:|            
 
 ## How to create a constant value in Go?
 
-## What is difference between function and method in Go?
-
-## What all different types Go can support?
+## What is the difference between function and method in Go?
 
 ## How to implement polymorphic behavior in Go?
 
@@ -106,7 +104,7 @@ Pointer arithmetic           |                  |:white_check_mark:|            
 
 ## How to create a map in Go?
 
-## What are different methods available for string manupulation?
+## What are different methods available for string manipulation?
 
 ## What are the basics of web programming in Go?
 
