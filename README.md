@@ -66,10 +66,10 @@ Function overloading         |                  |:white_check_mark:|:white_check
 Explict ```implements```     |                  |:white_check_mark:|:white_check_mark:|
 Operator overloading         |                  |:white_check_mark:|                  |
 Arrow (```->```) dereferencing|                 |:white_check_mark:|                  |
-keywords ```final, abstract```|                 |                  |:white_check_mark:|
-keywords ```virtual, friend```|                 |:white_check_mark:|                  |
-keyword ```this```           |                  |:white_check_mark:|:white_check_mark:| 
-keyword ```static```         |                  |:white_check_mark:|:white_check_mark:| 
+```final, abstract```|                 |                  |:white_check_mark:|
+```virtual, friend```|                 |:white_check_mark:|                  |
+```this```           |                  |:white_check_mark:|:white_check_mark:| 
+```static```         |                  |:white_check_mark:|:white_check_mark:| 
 Default function arguments   |                  |:white_check_mark:|                  |
 Pointer arithmetic           |                  |:white_check_mark:|                  |  
 
