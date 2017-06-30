@@ -76,21 +76,7 @@ Pointer arithmetic           |                  |:white_check_mark:|            
 
 ## What is concurrency? Is it same as parallelism? How to achieve concurrency in Go programs? 
 
-Concurrency is the composition of independently executing computations. It is not parallelism. On a single processor your program can be concurrent, but it cannot be parallel.  
-
-Go has in-built features _channel_ and _goroutines_ to write concurrently running function executions. _goroutines_ are analogus to background invocation of shell command using ```&```. It is independently executing function launched by using a ```go``` keyword.
-
-A _channel_ provides a connection between two goroutines allowing them to communicate. _Channels_ are first class values in Go, which means you can pass them to function, return them from function, or you can assign them to a variable. _Channels_ are defined using ```chan``` keyword and initialize using ```make``` function. ```<--``` is used to send (e.g. ```channel_variable_name <- data```) and receive (e.g. ```data := <- channel_variable_name```) values from the _channel_. The sending and receiving on channel are blocking operation. 
-
-Go concurrency slogan,
-> Don't communicate by sharing memory, share memory by communicating.
-
 ## How to write reusable libraries in Go?
-
-The import path is just a string, it can be a file or a URL.
-Two packages can have the same name. i.e. the package name might not be unique.
-
-Simple export syntax. The uppercase initial name for variables, types, functions, methods and constants denotes that it is visible to clients of package. So, you can figure out visibility of these without looking at the declaration (there are no special magic words like ```public```, ```private```, ```protected``` there). Isn't it simple and clear?
 
 ## What are the different types supported in Go?
 
