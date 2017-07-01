@@ -53,7 +53,7 @@ Designed for fast compilation|:white_check_mark:|                  |            
 Anonymous functions          |:white_check_mark:|                  |                  |
 datatype ```rune```          |:white_check_mark:|                  |                  |
 Garbage collection           |:white_check_mark:|                  |:white_check_mark:|
-Interface                    |:white_check_mark:|                  |:white_check_mark:|
+``interface```               |:white_check_mark:|                  |:white_check_mark:|
 Function can return multiple values|:white_check_mark:|            |                  |
 Pointers                     |:white_check_mark:|:white_check_mark:|                  |
 ```while```                  |                  |:white_check_mark:|:white_check_mark:|
@@ -66,10 +66,10 @@ Function overloading         |                  |:white_check_mark:|:white_check
 Explict ```implements```     |                  |:white_check_mark:|:white_check_mark:|
 Operator overloading         |                  |:white_check_mark:|                  |
 Arrow (```->```) dereferencing|                 |:white_check_mark:|                  |
-```final, abstract```|                 |                  |:white_check_mark:|
-```virtual, friend```|                 |:white_check_mark:|                  |
-```this```           |                  |:white_check_mark:|:white_check_mark:| 
-```static```         |                  |:white_check_mark:|:white_check_mark:| 
+```final, abstract```        |                  |                  |:white_check_mark:|
+```virtual, friend```        |                  |:white_check_mark:|                  |
+```this```                   |                  |:white_check_mark:|:white_check_mark:| 
+```static```                 |                  |:white_check_mark:|:white_check_mark:| 
 Default function arguments   |                  |:white_check_mark:|                  |
 Pointer arithmetic           |                  |:white_check_mark:|                  |  
 
