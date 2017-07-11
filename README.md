@@ -19,7 +19,7 @@ Other Gyan: One of the shortest complete sentences in the English language is 'G
 
 ## Who created the Go Programming language and when?
 
-Go design was started in September 2007 by Robert Griesemer, Rob Pike and Ken Thompson at Google. It was publicly announced and also open sourced in November 2009. Go version 1 was released on 28th March 2012.
+Go design was started in September 2007 by Robert Griesemer, Rob Pike and Ken Thompson at Google. It was publicly announced and also open sourced in November 2009. Go version 1 was released on 28th March, 2012.
 
 ## What were the main motivations/goals to create another programming language?
 * Fast compilation
@@ -64,6 +64,8 @@ Generics                     |                  |:white_check_mark:|:white_check
 Type inheritance             |                  |:white_check_mark:|:white_check_mark:|
 Function overloading         |                  |:white_check_mark:|:white_check_mark:|
 Explict ```implements```     |                  |:white_check_mark:|:white_check_mark:|
+```;``` at the end of lines  |                  |:white_check_mark:|:white_check_mark:|
+``?:`` Ternary operator      |                  |:white_check_mark:|:white_check_mark:|
 Operator overloading         |                  |:white_check_mark:|                  |
 Arrow (```->```) dereferencing|                 |:white_check_mark:|                  |
 ```final, abstract```        |                  |                  |:white_check_mark:|
@@ -72,6 +74,7 @@ Arrow (```->```) dereferencing|                 |:white_check_mark:|            
 ```static```                 |                  |:white_check_mark:|:white_check_mark:| 
 Default function arguments   |                  |:white_check_mark:|                  |
 Pointer arithmetic           |                  |:white_check_mark:|                  |  
+can return the address of a local variable|:white_check_mark:| | |
 
 
 ## What is concurrency? Is it same as parallelism? How to achieve concurrency in Go programs? 
