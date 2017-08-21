@@ -44,6 +44,7 @@ Statically typed             |:white_check_mark:|:white_check_mark:|:white_check
 Object oriented programming  |:white_check_mark:|:white_check_mark:|:white_check_mark:|
 Variadic function            |:white_check_mark:|:white_check_mark:|:white_check_mark:|
 Defining constants           |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+```interface```              |:white_check_mark:|:white_check_mark:|:white_check_mark:|
 Statically compiled          |:white_check_mark:|:white_check_mark:|                  |
 ```struct```                 |:white_check_mark:|:white_check_mark:|                  |
 <span>&lambda;</span> functions/Closures |:white_check_mark:|:white_check_mark:|      |
@@ -52,9 +53,14 @@ Implicit ```implements```    |:white_check_mark:|                  |            
 Designed for fast compilation|:white_check_mark:|                  |                  |
 Anonymous functions          |:white_check_mark:|                  |                  |
 datatype ```rune```          |:white_check_mark:|                  |                  |
-Garbage collection           |:white_check_mark:|                  |:white_check_mark:|
-``interface```               |:white_check_mark:|                  |:white_check_mark:|
+A case body breaks automatically|:white_check_mark:|               |                  |
 Function can return multiple values|:white_check_mark:|            |                  |
+Declaring multiline strings using ```\````|:white_check_mark:|            |                  |
+can return the address of a local variable|:white_check_mark:|     |                  | 
+Arrays are values (assigning copies all the elements) |:white_check_mark:||           |
+The size of an array is part of its type|:white_check_mark:||           |
+```&``` address-of operator  |:white_check_mark:|:white_check_mark:|                  |
+Garbage collection           |:white_check_mark:|                  |:white_check_mark:|
 Pointers                     |:white_check_mark:|:white_check_mark:|                  |
 ```while```                  |                  |:white_check_mark:|:white_check_mark:|
 ```do { } while```           |                  |:white_check_mark:|:white_check_mark:|
@@ -74,7 +80,6 @@ Arrow (```->```) dereferencing|                 |:white_check_mark:|            
 ```static```                 |                  |:white_check_mark:|:white_check_mark:| 
 Default function arguments   |                  |:white_check_mark:|                  |
 Pointer arithmetic           |                  |:white_check_mark:|                  |  
-can return the address of a local variable|:white_check_mark:| | |
 
 
 ## What is concurrency? Is it same as parallelism? How to achieve concurrency in Go programs? 
