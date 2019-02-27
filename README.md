@@ -51,7 +51,7 @@ Statically compiled          |:white_check_mark:|:white_check_mark:|            
 In-built concurrency support |:white_check_mark:|                  |                  |
 Implicit ```implements```    |:white_check_mark:|                  |                  |
 Designed for fast compilation|:white_check_mark:|                  |                  |
-Anonymous functions          |:white_check_mark:|                  |                  |
+Anonymous functions          |:white_check_mark:|:white_check_mark:|                  |
 datatype ```rune```          |:white_check_mark:|                  |                  |
 A case body breaks automatically|:white_check_mark:|               |                  |
 Function can return multiple values|:white_check_mark:|            |                  |
