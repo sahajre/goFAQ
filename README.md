@@ -82,47 +82,6 @@ Default function arguments   |                  |:white_check_mark:|            
 Pointer arithmetic           |                  |:white_check_mark:|                  |  
 
 
-## What is concurrency? Is it same as parallelism? How to achieve concurrency in Go programs? 
 
-## How to write reusable libraries in Go?
-
-## What are the different data types supported in Go?
-
-## How to define a type in Go?
-
-## How the scope of variable works in Go?
-
-## How to create a constant value in Go?
-
-## What is the difference between function and method in Go?
-
-## How to implement polymorphic behavior in Go?
-
-## How to handle files in Go?
-
-## How to handle commandline arguments in Go?
-
-## Does go support exception handling?
-
-## How to format Go program?
-
-## How to test Go program?
-
-## How to create an array in Go?
-
-## How to create a map in Go?
-
-## What are different methods available for string manipulation?
-
-## What are the basics of web programming in Go?
-
-## Which popular companies use Go in production?
-
-## What are the other references you would recommend?
-
-Higly recommended:
-
-
-Recommended:
 
 
